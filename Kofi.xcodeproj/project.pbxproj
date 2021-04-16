@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		8658B56C262935A100AE5A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56B262935A100AE5A37 /* AppDelegate.swift */; };
 		8658B56E262935A100AE5A37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56D262935A100AE5A37 /* SceneDelegate.swift */; };
-		8658B570262935A100AE5A37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56F262935A100AE5A37 /* ContentView.swift */; };
+		8658B570262935A100AE5A37 /* loggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56F262935A100AE5A37 /* loggedOut.swift */; };
 		8658B572262935A500AE5A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8658B571262935A500AE5A37 /* Assets.xcassets */; };
 		8658B575262935A500AE5A37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8658B574262935A500AE5A37 /* Preview Assets.xcassets */; };
 		8658B578262935A500AE5A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8658B576262935A500AE5A37 /* LaunchScreen.storyboard */; };
 		8658B583262935A600AE5A37 /* KofiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B582262935A600AE5A37 /* KofiTests.swift */; };
 		8658B58E262935A600AE5A37 /* KofiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B58D262935A600AE5A37 /* KofiUITests.swift */; };
+		8665B60B2629784D0067D852 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8665B60A2629784D0067D852 /* mapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		8658B568262935A100AE5A37 /* Kofi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kofi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8658B56B262935A100AE5A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8658B56D262935A100AE5A37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8658B56F262935A100AE5A37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8658B56F262935A100AE5A37 /* loggedOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loggedOut.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8658B571262935A500AE5A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8658B574262935A500AE5A37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8658B577262935A500AE5A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		8658B589262935A600AE5A37 /* KofiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KofiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8658B58D262935A600AE5A37 /* KofiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KofiUITests.swift; sourceTree = "<group>"; };
 		8658B58F262935A600AE5A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8665B60A2629784D0067D852 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				8658B56B262935A100AE5A37 /* AppDelegate.swift */,
 				8658B56D262935A100AE5A37 /* SceneDelegate.swift */,
-				8658B56F262935A100AE5A37 /* ContentView.swift */,
+				8658B56F262935A100AE5A37 /* loggedOut.swift */,
 				8658B571262935A500AE5A37 /* Assets.xcassets */,
 				8658B576262935A500AE5A37 /* LaunchScreen.storyboard */,
 				8658B579262935A500AE5A37 /* Info.plist */,
 				8658B573262935A500AE5A37 /* Preview Content */,
+				8665B60A2629784D0067D852 /* mapView.swift */,
 			);
 			path = Kofi;
 			sourceTree = "<group>";
@@ -267,8 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8658B56C262935A100AE5A37 /* AppDelegate.swift in Sources */,
+				8665B60B2629784D0067D852 /* mapView.swift in Sources */,
 				8658B56E262935A100AE5A37 /* SceneDelegate.swift in Sources */,
-				8658B570262935A100AE5A37 /* ContentView.swift in Sources */,
+				8658B570262935A100AE5A37 /* loggedOut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

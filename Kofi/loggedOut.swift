@@ -1,0 +1,204 @@
+//
+//  ContentView.swift
+//  Kofe
+//
+//  Created by muca on 4/3/21.
+//  Copyright © 2021 Nightowls. All rights reserved.
+//
+
+import SwiftUI
+
+struct loggedOut: View {
+    
+    let col1 = UIColor(red: 0, green: 10, blue: 0, alpha: 1)
+    
+    
+    var body: some View {
+        NavigationView {
+            ZStack {
+                Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
+                VStack {
+                    Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
+                        .edgesIgnoringSafeArea(.horizontal)
+                        .edgesIgnoringSafeArea(.top)
+                    VStack {
+                        Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
+                        Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
+                        Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
+                        Color(UIColor(red: 0.98, green: 0.98, blue: 0.83, alpha: 1.00))
+                            .edgesIgnoringSafeArea(.bottom)
+                    }
+                }
+                VStack {
+                    Image("logo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                    Text("Helping you find your\n next workspace")
+                        .bold()
+                        .font(.custom("Helvetica", size: 26))
+                        .foregroundColor(.white)
+                        .multilineTextAlignment(.center)
+                    Spacer()
+                    
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            print("Floating Button Click")
+                        }, label: {
+                            NavigationLink(destination: logIn()) {
+                                Text("LOG IN")
+                                    .bold()
+                                    .font(.custom("Helvetica-Light", size: 16))
+                            }
+                        })
+                        
+                        .frame(width: 150, height: 50, alignment: .center)
+                        .background(Color(UIColor(red: 1, green: 1, blue: 1, alpha: 1.00)))
+                        .foregroundColor(Color.black)
+                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(4)
+                        
+                        
+                        
+                        Spacer()
+                        Button(action: {
+                            print("Floating Button Click")
+                        }, label: {
+                            NavigationLink(destination: register()) {
+                                Text("REGISTER")
+                                    .bold()
+                                    .font(.custom("Helvetica-Light", size: 16))
+                                
+                            }
+                        })
+                        
+                        .frame(width: 150, height: 50, alignment: .center)
+                        .background(Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00)))
+                        .foregroundColor(Color.white)
+                        .cornerRadius(4)
+                        
+                        Spacer()
+                    }
+                }
+            }
+        }
+    }
+}
+struct logIn: View {
+        
+    var body: some View {
+        VStack {
+            
+            Text("Log in")
+                .padding()
+            
+            Text("Input 1")
+            
+            Text("Input 2")
+            
+            Button(action: {
+                print("Floating Button Click")
+            }, label: {
+                NavigationLink(destination: mapView()) {
+                    Text("LOG IN")
+                        .bold()
+                        .font(.custom("Helvetica-Light", size: 16))
+                    
+                }
+            })
+            .frame(width: 350, height: 50, alignment: .center)
+            .background(Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00)))
+            .foregroundColor(Color.white)
+            .cornerRadius(4)
+            
+            
+        }
+        
+    }
+}
+struct register: View {
+        
+    var body: some View {
+        VStack {
+            
+            Text("Register")
+                .padding()
+            
+            Text("Input 1")
+            
+            Text("Input 2")
+            
+            Button(action: {
+                print("Floating Button Click")
+            }, label: {
+                NavigationLink(destination: mapView()) {
+                    Text("Next")
+                        .bold()
+                        .font(.custom("Helvetica-Light", size: 16))
+                    
+                }
+            })
+            .frame(width: 350, height: 50, alignment: .center)
+            .background(Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00)))
+            .foregroundColor(Color.white)
+            .cornerRadius(4)
+            
+            
+        }
+        
+    }
+}
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        loggedOut()
+            
+    }
+}
+
+/*
+VStack {
+    //Button instance with closure
+    Button("Click me!", action: {
+        print("You clicked me! 1")
+    })
+    
+    //Button instance with trailing closure.
+    Button("Click me") {
+        print("You clicked me! 2")
+    }
+    
+    //Button instance with label view.
+    Button(action: {
+        print("You clicked me! 3")
+    }, label: {
+        Image(systemName: "pencil")
+        Text("Edit")
+    })
+    //Button that is jsut an img.
+    Button(action: {
+        counter += 1
+    }, label: {
+        Image(systemName: "circle")
+    })
+    Spacer()
+    Text(String(counter))
+}
+*/
+
+
+
+//Text("Hello, World!").padding().background(Color.green).blur(radius:0.5)
+/*
+let myText = "Hello World!"
+VStack {
+    Spacer()
+    Image("logo")
+        .resizable()
+        .aspectRatio(contentMode: .fit)
+    Spacer()
+    Text(myText).padding().background(Color.green).blur(radius:0.5)
+    Spacer()
+}
+**/
