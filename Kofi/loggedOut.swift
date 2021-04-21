@@ -8,40 +8,40 @@
 
 import SwiftUI
 
+
 struct loggedOut: View {
     
     let col1 = UIColor(red: 0, green: 10, blue: 0, alpha: 1)
+    
+    let col2 = UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00)
+    
+    let greetings = ["Test1", "test2"]
     
     
     var body: some View {
         NavigationView {
             ZStack {
-                Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
-                VStack {
-                    Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
-                        .edgesIgnoringSafeArea(.horizontal)
-                        .edgesIgnoringSafeArea(.top)
-                    VStack {
-                        Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
-                        Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
-                        Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00))
-                        Color(UIColor(red: 0.98, green: 0.98, blue: 0.83, alpha: 1.00))
-                            .edgesIgnoringSafeArea(.bottom)
-                    }
-                }
-                VStack {
-                    Image("logo")
+                
+                Color(col2)
+                    .edgesIgnoringSafeArea(.all)
+    
+                VStack(alignment: .center) {
+                    Spacer()
+                    Image("Kofi_Logo_Small")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
+                        .frame(alignment: .center)
                     Text("Discover your\n next workspace")
                         .bold()
-                        
                         .font(.custom("Helvetica", size: 26))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
+                        .transition(.slide)
+                    
+                    Spacer()
                     Spacer()
                     
-                    HStack {
+                    HStack(alignment: .bottom) {
                         Spacer()
                         Button(action: {
                             print("Floating Button Click")
@@ -50,16 +50,13 @@ struct loggedOut: View {
                                 Text("LOG IN")
                                     .bold()
                                     .font(.custom("Helvetica-Light", size: 16))
+                                    .frame(width: 150, height: 50, alignment: .center)
+                                    .background(Color(UIColor(red: 1, green: 1, blue: 1, alpha: 1.00)))
+                                    .foregroundColor(Color.black)
+                                    .border(Color.gray/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1)
+                                    .cornerRadius(20)
                             }
                         })
-                        
-                        .frame(width: 150, height: 50, alignment: .center)
-                        .background(Color(UIColor(red: 1, green: 1, blue: 1, alpha: 1.00)))
-                        .foregroundColor(Color.black)
-                        .border(Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1)
-                        .cornerRadius(4)
-                        
-                        
                         
                         Spacer()
                         Button(action: {
@@ -69,16 +66,17 @@ struct loggedOut: View {
                                 Text("REGISTER")
                                     .bold()
                                     .font(.custom("Helvetica-Light", size: 16))
-                                
+                                    .frame(width: 150, height: 50, alignment: .center)
+                                    .background(Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00)))
+                                    .foregroundColor(Color.white)
+                                    .border(Color.gray)
+                                    .cornerRadius(20)
                             }
                         })
                         
-                        .frame(width: 150, height: 50, alignment: .center)
-                        .background(Color(UIColor(red: 0.02, green: 0.51, blue: 0.79, alpha: 1.00)))
-                        .foregroundColor(Color.white)
-                        .cornerRadius(4)
                         
                         Spacer()
+                        
                     }
                 }
             }
