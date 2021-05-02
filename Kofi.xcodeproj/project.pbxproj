@@ -16,6 +16,8 @@
 		8658B583262935A600AE5A37 /* KofiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B582262935A600AE5A37 /* KofiTests.swift */; };
 		8658B58E262935A600AE5A37 /* KofiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B58D262935A600AE5A37 /* KofiUITests.swift */; };
 		8665B60B2629784D0067D852 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8665B60A2629784D0067D852 /* mapView.swift */; };
+		86C7F1FA263531E00012B445 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7F1F9263531E00012B445 /* AccountView.swift */; };
+		86C7F205263532400012B445 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7F204263532400012B445 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		8658B58D262935A600AE5A37 /* KofiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KofiUITests.swift; sourceTree = "<group>"; };
 		8658B58F262935A600AE5A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8665B60A2629784D0067D852 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
+		86C7F1F9263531E00012B445 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = SOURCE_ROOT; };
+		86C7F204263532400012B445 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		8658B56A262935A100AE5A37 /* Kofi */ = {
 			isa = PBXGroup;
 			children = (
+				86C7F1F9263531E00012B445 /* AccountView.swift */,
 				8658B56B262935A100AE5A37 /* AppDelegate.swift */,
 				8658B56D262935A100AE5A37 /* SceneDelegate.swift */,
 				8658B56F262935A100AE5A37 /* loggedOut.swift */,
@@ -109,6 +114,7 @@
 				8658B579262935A500AE5A37 /* Info.plist */,
 				8658B573262935A500AE5A37 /* Preview Content */,
 				8665B60A2629784D0067D852 /* mapView.swift */,
+				86C7F204263532400012B445 /* TabBar.swift */,
 			);
 			path = Kofi;
 			sourceTree = "<group>";
@@ -270,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8658B56C262935A100AE5A37 /* AppDelegate.swift in Sources */,
+				86C7F1FA263531E00012B445 /* AccountView.swift in Sources */,
 				8665B60B2629784D0067D852 /* mapView.swift in Sources */,
+				86C7F205263532400012B445 /* TabBar.swift in Sources */,
 				8658B56E262935A100AE5A37 /* SceneDelegate.swift in Sources */,
 				8658B570262935A100AE5A37 /* loggedOut.swift in Sources */,
 			);

@@ -8,6 +8,25 @@
 
 import SwiftUI
 
+class UserSettings: ObservableObject {
+    @Published var loggedIn : Bool = false
+    @Published var navigateNowToLogIn: Bool = false
+    @Published var navigateNowToSignup: Bool = false
+}
+
+struct StartView: View {
+    @EnvironmentObject var settings: UserSettings
+    
+    var body: some View {
+        if settings.loggedIn {
+            return AnyView(AccountView())
+        }else {
+            return AnyView(loggedOut())
+        }
+    }
+}
+
+
 struct loggedOut: View {
     
     let col1 = UIColor(red: 0, green: 10, blue: 0, alpha: 1)
@@ -182,7 +201,7 @@ struct register: View {
             Button(action: {
                 print("Floating Button Click")
             }, label: {
-                NavigationLink(destination: mapView()) {
+                NavigationLink(destination: AccountView()) {
                     Text("Next")
                         .bold()
                         .font(.custom("Helvetica-Light", size: 16))
