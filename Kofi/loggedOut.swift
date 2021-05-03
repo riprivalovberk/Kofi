@@ -223,7 +223,12 @@ struct register: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        loggedOut()
+        Group {
+            loggedOut()
+            loggedOut()
+            loggedOut()
+            loggedOut()
+        }
             
     }
 }
