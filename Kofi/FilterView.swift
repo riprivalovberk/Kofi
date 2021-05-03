@@ -11,19 +11,22 @@ struct FilterView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Spacer()
                 VStack(alignment: .leading) {
                     Button(action: {
                         print("Strada Button Click")
                     }, label: {
                         NavigationLink(destination: CafeView()) {
-                            Image("strada")
-                                //.resizable()
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .edgesIgnoringSafeArea(.horizontal)
-                                .frame(height: 220.0)
+                            HStack {
+                                Image("strada")
+                                    //.resizable()
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 280.0)
+                            }
+                            .edgesIgnoringSafeArea(.horizontal)
+                            .edgesIgnoringSafeArea(.top)
                         }
+                        .navigationBarBackButtonHidden(true)
                     })
                     Text("Caffe Strada")
                         .bold()
@@ -37,7 +40,8 @@ struct FilterView: View {
                         .font(.system(size: 10))
                         
                 }
-                Spacer()
+                .edgesIgnoringSafeArea(.top)
+                .padding(.bottom, 20.0)
                 VStack {
                     Spacer()
                     VStack(alignment: .leading) {
@@ -62,8 +66,9 @@ struct FilterView: View {
                             .font(.system(size: 10))
                     }
                 }
-                Spacer()
             }
-       }
+            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.top/*@END_MENU_TOKEN@*/)
+        }
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.top/*@END_MENU_TOKEN@*/)
     }
 }
