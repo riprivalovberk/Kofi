@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		23DC4BE7520E6AAC16F6023A /* Pods_KofiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE33A6D0A5F38A5CDAB850 /* Pods_KofiTests.framework */; };
 		4F020DB4FE178520B972EC2B /* Pods_Kofi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6089409D7D0940BF15E2F9D5 /* Pods_Kofi.framework */; };
+		5BA50B332632A61F0021B054 /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA50B322632A61F0021B054 /* logIn.swift */; };
 		8658B56C262935A100AE5A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56B262935A100AE5A37 /* AppDelegate.swift */; };
 		8658B56E262935A100AE5A37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56D262935A100AE5A37 /* SceneDelegate.swift */; };
 		8658B570262935A100AE5A37 /* loggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56F262935A100AE5A37 /* loggedOut.swift */; };
@@ -42,6 +43,7 @@
 		03DDE9F27D578093F5F6E4BE /* Pods-Kofi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kofi.release.xcconfig"; path = "Target Support Files/Pods-Kofi/Pods-Kofi.release.xcconfig"; sourceTree = "<group>"; };
 		06629065C72DF8A7F7E53FB2 /* Pods_Kofi_KofiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kofi_KofiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		217AD8B8023D2A71C407B256 /* Pods-KofiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KofiTests.debug.xcconfig"; path = "Target Support Files/Pods-KofiTests/Pods-KofiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA50B322632A61F0021B054 /* logIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
 		6089409D7D0940BF15E2F9D5 /* Pods_Kofi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kofi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7529DE1D3E35129AC806C071 /* Pods-Kofi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kofi.debug.xcconfig"; path = "Target Support Files/Pods-Kofi/Pods-Kofi.debug.xcconfig"; sourceTree = "<group>"; };
 		8658B568262935A100AE5A37 /* Kofi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kofi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 				8658B579262935A500AE5A37 /* Info.plist */,
 				8658B573262935A500AE5A37 /* Preview Content */,
 				8665B60A2629784D0067D852 /* mapView.swift */,
+				5BA50B322632A61F0021B054 /* logIn.swift */,
 			);
 			path = Kofi;
 			sourceTree = "<group>";
@@ -176,7 +179,6 @@
 				217AD8B8023D2A71C407B256 /* Pods-KofiTests.debug.xcconfig */,
 				9FDE173BC506BD078FEF29BE /* Pods-KofiTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA50B332632A61F0021B054 /* logIn.swift in Sources */,
 				8658B56C262935A100AE5A37 /* AppDelegate.swift in Sources */,
 				8665B60B2629784D0067D852 /* mapView.swift in Sources */,
 				8658B56E262935A100AE5A37 /* SceneDelegate.swift in Sources */,
