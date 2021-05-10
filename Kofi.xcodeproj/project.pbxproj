@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B15A67F2648A5CA006962CB /* logInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15A67E2648A5CA006962CB /* logInView.swift */; };
+		5B15A6842648A5D5006962CB /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15A6832648A5D5006962CB /* signUpView.swift */; };
+		5B7F8FDA2649FDBC0045018B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F8FD92649FDBC0045018B /* GoogleService-Info.plist */; };
+		6BD97A86FB4BF53C5B586F53 /* Pods_KofiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CB480220B021244EF4E76F /* Pods_KofiTests.framework */; };
 		8658B56C262935A100AE5A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56B262935A100AE5A37 /* AppDelegate.swift */; };
 		8658B56E262935A100AE5A37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56D262935A100AE5A37 /* SceneDelegate.swift */; };
 		8658B570262935A100AE5A37 /* loggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B56F262935A100AE5A37 /* loggedOut.swift */; };
@@ -20,6 +24,8 @@
 		869CAE44263F7D3D008189E3 /* CafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869CAE43263F7D3D008189E3 /* CafeView.swift */; };
 		86C7F1FA263531E00012B445 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7F1F9263531E00012B445 /* AccountView.swift */; };
 		86C7F205263532400012B445 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7F204263532400012B445 /* TabBar.swift */; };
+		9CFBCDEE23C20170865A86DB /* Pods_Kofi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782AC1BA84D010F473AB1480 /* Pods_Kofi.framework */; };
+		F3F949C990EC2E88DCCA6266 /* Pods_Kofi_KofiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A90EFB1BC38EA1A90CDAC9 /* Pods_Kofi_KofiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A491BF203604AD363ECF12 /* Pods-Kofi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kofi.debug.xcconfig"; path = "Target Support Files/Pods-Kofi/Pods-Kofi.debug.xcconfig"; sourceTree = "<group>"; };
+		042423B85F01792AC08A9935 /* Pods-Kofi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kofi.release.xcconfig"; path = "Target Support Files/Pods-Kofi/Pods-Kofi.release.xcconfig"; sourceTree = "<group>"; };
+		2EDC3917F28F6E8651C92725 /* Pods-KofiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KofiTests.release.xcconfig"; path = "Target Support Files/Pods-KofiTests/Pods-KofiTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B15A67E2648A5CA006962CB /* logInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInView.swift; sourceTree = "<group>"; };
+		5B15A6832648A5D5006962CB /* signUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpView.swift; sourceTree = "<group>"; };
+		5B7F8FD92649FDBC0045018B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		782AC1BA84D010F473AB1480 /* Pods_Kofi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kofi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A90EFB1BC38EA1A90CDAC9 /* Pods_Kofi_KofiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kofi_KofiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8658B568262935A100AE5A37 /* Kofi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kofi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8658B56B262935A100AE5A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8658B56D262935A100AE5A37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +73,10 @@
 		869CAE43263F7D3D008189E3 /* CafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeView.swift; sourceTree = "<group>"; };
 		86C7F1F9263531E00012B445 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = SOURCE_ROOT; };
 		86C7F204263532400012B445 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		A99E41B963F2C1C29550F52E /* Pods-Kofi-KofiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kofi-KofiUITests.release.xcconfig"; path = "Target Support Files/Pods-Kofi-KofiUITests/Pods-Kofi-KofiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5CB480220B021244EF4E76F /* Pods_KofiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KofiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40723FE1CEF115A59B6A869 /* Pods-Kofi-KofiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kofi-KofiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kofi-KofiUITests/Pods-Kofi-KofiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9FFA89F5BB5E88368627FB6 /* Pods-KofiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KofiTests.debug.xcconfig"; path = "Target Support Files/Pods-KofiTests/Pods-KofiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CFBCDEE23C20170865A86DB /* Pods_Kofi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD97A86FB4BF53C5B586F53 /* Pods_KofiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F949C990EC2E88DCCA6266 /* Pods_Kofi_KofiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8505BD4806048EF0AF14AB58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782AC1BA84D010F473AB1480 /* Pods_Kofi.framework */,
+				82A90EFB1BC38EA1A90CDAC9 /* Pods_Kofi_KofiUITests.framework */,
+				D5CB480220B021244EF4E76F /* Pods_KofiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8658B55F262935A100AE5A37 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +124,8 @@
 				8658B581262935A600AE5A37 /* KofiTests */,
 				8658B58C262935A600AE5A37 /* KofiUITests */,
 				8658B569262935A100AE5A37 /* Products */,
+				FD7EF1092C1F927393F183FE /* Pods */,
+				8505BD4806048EF0AF14AB58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,18 +142,21 @@
 		8658B56A262935A100AE5A37 /* Kofi */ = {
 			isa = PBXGroup;
 			children = (
-				86C7F1F9263531E00012B445 /* AccountView.swift */,
-				869CAE43263F7D3D008189E3 /* CafeView.swift */,
-				869CAE3E263F7798008189E3 /* FilterView.swift */,
+				5B7F8FD92649FDBC0045018B /* GoogleService-Info.plist */,
 				8658B56B262935A100AE5A37 /* AppDelegate.swift */,
 				8658B56D262935A100AE5A37 /* SceneDelegate.swift */,
 				8658B56F262935A100AE5A37 /* loggedOut.swift */,
+				5B15A67E2648A5CA006962CB /* logInView.swift */,
+				5B15A6832648A5D5006962CB /* signUpView.swift */,
+				8665B60A2629784D0067D852 /* mapView.swift */,
+				869CAE43263F7D3D008189E3 /* CafeView.swift */,
+				86C7F1F9263531E00012B445 /* AccountView.swift */,
+				869CAE3E263F7798008189E3 /* FilterView.swift */,
+				86C7F204263532400012B445 /* TabBar.swift */,
 				8658B571262935A500AE5A37 /* Assets.xcassets */,
 				8658B576262935A500AE5A37 /* LaunchScreen.storyboard */,
 				8658B579262935A500AE5A37 /* Info.plist */,
 				8658B573262935A500AE5A37 /* Preview Content */,
-				8665B60A2629784D0067D852 /* mapView.swift */,
-				86C7F204263532400012B445 /* TabBar.swift */,
 			);
 			path = Kofi;
 			sourceTree = "<group>";
@@ -151,6 +187,19 @@
 			path = KofiUITests;
 			sourceTree = "<group>";
 		};
+		FD7EF1092C1F927393F183FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A491BF203604AD363ECF12 /* Pods-Kofi.debug.xcconfig */,
+				042423B85F01792AC08A9935 /* Pods-Kofi.release.xcconfig */,
+				F40723FE1CEF115A59B6A869 /* Pods-Kofi-KofiUITests.debug.xcconfig */,
+				A99E41B963F2C1C29550F52E /* Pods-Kofi-KofiUITests.release.xcconfig */,
+				F9FFA89F5BB5E88368627FB6 /* Pods-KofiTests.debug.xcconfig */,
+				2EDC3917F28F6E8651C92725 /* Pods-KofiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8658B592262935A600AE5A37 /* Build configuration list for PBXNativeTarget "Kofi" */;
 			buildPhases = (
+				67C8DFF3EC467DD26C328781 /* [CP] Check Pods Manifest.lock */,
 				8658B564262935A100AE5A37 /* Sources */,
 				8658B565262935A100AE5A37 /* Frameworks */,
 				8658B566262935A100AE5A37 /* Resources */,
+				76C706CF516CF7EA6E08338E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8658B595262935A600AE5A37 /* Build configuration list for PBXNativeTarget "KofiTests" */;
 			buildPhases = (
+				9116AA7C7C8BB45E7D253F39 /* [CP] Check Pods Manifest.lock */,
 				8658B57A262935A600AE5A37 /* Sources */,
 				8658B57B262935A600AE5A37 /* Frameworks */,
 				8658B57C262935A600AE5A37 /* Resources */,
@@ -193,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8658B598262935A600AE5A37 /* Build configuration list for PBXNativeTarget "KofiUITests" */;
 			buildPhases = (
+				58491618CDE8B68B0CBDFDA5 /* [CP] Check Pods Manifest.lock */,
 				8658B585262935A600AE5A37 /* Sources */,
 				8658B586262935A600AE5A37 /* Frameworks */,
 				8658B587262935A600AE5A37 /* Resources */,
+				479CA812E99137F9DFD8ED76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8658B578262935A500AE5A37 /* LaunchScreen.storyboard in Resources */,
+				5B7F8FDA2649FDBC0045018B /* GoogleService-Info.plist in Resources */,
 				8658B575262935A500AE5A37 /* Preview Assets.xcassets in Resources */,
 				8658B572262935A500AE5A37 /* Assets.xcassets in Resources */,
 			);
@@ -276,16 +331,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		479CA812E99137F9DFD8ED76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kofi-KofiUITests/Pods-Kofi-KofiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kofi-KofiUITests/Pods-Kofi-KofiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kofi-KofiUITests/Pods-Kofi-KofiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58491618CDE8B68B0CBDFDA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kofi-KofiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C8DFF3EC467DD26C328781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kofi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C706CF516CF7EA6E08338E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kofi/Pods-Kofi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kofi/Pods-Kofi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kofi/Pods-Kofi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9116AA7C7C8BB45E7D253F39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KofiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8658B564262935A100AE5A37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B15A67F2648A5CA006962CB /* logInView.swift in Sources */,
 				869CAE3F263F7798008189E3 /* FilterView.swift in Sources */,
 				8658B56C262935A100AE5A37 /* AppDelegate.swift in Sources */,
 				86C7F1FA263531E00012B445 /* AccountView.swift in Sources */,
 				869CAE44263F7D3D008189E3 /* CafeView.swift in Sources */,
 				8665B60B2629784D0067D852 /* mapView.swift in Sources */,
+				5B15A6842648A5D5006962CB /* signUpView.swift in Sources */,
 				86C7F205263532400012B445 /* TabBar.swift in Sources */,
 				8658B56E262935A100AE5A37 /* SceneDelegate.swift in Sources */,
 				8658B570262935A100AE5A37 /* loggedOut.swift in Sources */,
@@ -453,6 +613,7 @@
 		};
 		8658B593262935A600AE5A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A491BF203604AD363ECF12 /* Pods-Kofi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +634,7 @@
 		};
 		8658B594262935A600AE5A37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042423B85F01792AC08A9935 /* Pods-Kofi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +655,7 @@
 		};
 		8658B596262935A600AE5A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FFA89F5BB5E88368627FB6 /* Pods-KofiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +677,7 @@
 		};
 		8658B597262935A600AE5A37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDC3917F28F6E8651C92725 /* Pods-KofiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +699,7 @@
 		};
 		8658B599262935A600AE5A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40723FE1CEF115A59B6A869 /* Pods-Kofi-KofiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +719,7 @@
 		};
 		8658B59A262935A600AE5A37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99E41B963F2C1C29550F52E /* Pods-Kofi-KofiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

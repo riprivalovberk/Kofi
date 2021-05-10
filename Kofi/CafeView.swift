@@ -1,9 +1,6 @@
 //
 //  AccountView.swift
-//  SwiftUIStarterKitApp
 //
-//  Created by Osama Naeem on 08/08/2019.
-//  Copyright © 2019 NexThings. All rights reserved.
 //
 
 import SwiftUI
@@ -63,7 +60,7 @@ struct CafeView: View {
             Button(action: {
                 print("Floating Button Click")
             }, label: {
-                NavigationLink(destination: register()) {
+                NavigationLink(destination: signUpView()) {
                     Text("Take me there")
                         .bold()
                         .font(.custom("Helvetica-Light", size: 16))

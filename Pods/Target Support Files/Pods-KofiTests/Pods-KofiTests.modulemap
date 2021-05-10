@@ -1,0 +1,6 @@
+framework module Pods_KofiTests {
+  umbrella header "Pods-KofiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
