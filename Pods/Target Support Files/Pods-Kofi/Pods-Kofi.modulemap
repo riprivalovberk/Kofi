@@ -1,0 +1,6 @@
+framework module Pods_Kofi {
+  umbrella header "Pods-Kofi-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Kofi_KofiUITests {
+  umbrella header "Pods-Kofi-KofiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
